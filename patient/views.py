@@ -84,4 +84,6 @@ class UserLogoutView(APIView):
         logout(request)
          # return redirect('login')
         return Response({'success' : "logout successful"})
+    
+    # Return View js
         
