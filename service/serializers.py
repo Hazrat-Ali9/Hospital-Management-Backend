@@ -5,3 +5,4 @@ class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Service
         fields = '__all__'
+        # Service Serializers 
