@@ -9,3 +9,5 @@ urlpatterns = [
     path('', include(router.urls)),
 ]
 
+# Urls Py Django
+
