@@ -23,3 +23,6 @@ class AppointmentAdmin(admin.ModelAdmin):
             email.send()
     
 admin.site.register(models.Appointment, AppointmentAdmin)
+
+
+# Admin Appiontment 
