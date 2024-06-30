@@ -8,6 +8,9 @@ APPOINTMENT_STATUS = [
     ('Pending', 'Pending'),
     ('Running', 'Running'),
 ]
+
+# Appionment Type 
+
 APPOINTMENT_TYPES = [
     ('Offline', 'Offline'),
     ('Online', 'Online'),
