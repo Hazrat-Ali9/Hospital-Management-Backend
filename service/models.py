@@ -1,5 +1,5 @@
 from django.db import models
-
+# charfield Modal
 # Create your models here.
 class Service(models.Model):
     name = models.CharField(max_length = 20)
