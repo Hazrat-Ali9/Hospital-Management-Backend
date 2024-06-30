@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from . import models
-
+# Appoinment Serializer 
 class AppointmentSerializer(serializers.ModelSerializer):
     time = serializers.StringRelatedField(many=False)
     patient = serializers.StringRelatedField(many=False)
