@@ -10,5 +10,5 @@ class PatientAdmin(admin.ModelAdmin):
     def last_name(self,obj):
         return obj.user.last_name
     
-    
+    # admin patient Modal 
 admin.site.register(models.Patient, PatientAdmin)
