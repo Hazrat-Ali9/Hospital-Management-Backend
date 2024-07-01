@@ -10,3 +10,5 @@ class ContactUs(models.Model):
         return self.name
     class Meta:
         verbose_name_plural = "Contact Us"
+        
+        # modals
