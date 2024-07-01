@@ -5,3 +5,5 @@ class ContactUsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.ContactUs
         fields = '__all__'
+        
+        # Serilizer 
