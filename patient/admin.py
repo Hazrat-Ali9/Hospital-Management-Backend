@@ -1,5 +1,6 @@
 from django.contrib import admin
 from . import models
+# Patient admin
 # Register your models here.
 class PatientAdmin(admin.ModelAdmin):
     list_display = ['first_name','last_name','mobile_no', 'image']
