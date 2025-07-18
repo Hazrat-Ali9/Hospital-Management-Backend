@@ -6,7 +6,7 @@ class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Patient
         fields = '__all__'
-
+# Serializers.
 class RegistrationSerializer(serializers.ModelSerializer):
     confirm_password = serializers.CharField(required = True)
     class Meta:
